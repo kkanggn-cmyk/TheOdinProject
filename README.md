@@ -1,2 +1,2 @@
 # TheOdinProject
-Odin project for me
+Odin project for Khang Nguyen
