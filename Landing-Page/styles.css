@@ -1,0 +1,164 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 20px 200px;
+    background-color: rgb(32, 48, 63);
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{
+    color: white;
+}
+
+ul{
+    display:flex;
+    gap:30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.body-one{
+    padding: 100px 100px;
+    background-color:rgb(32, 48, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+}
+
+.heading-one{
+    font-size: 40px;
+    padding:0;
+    margin:0;
+}
+
+.text-one{
+    font-size: 20px;
+}
+
+.button-one{
+    width:100px;
+    height:40px;
+    margin-top: 20px;
+    background-color: lightskyblue;
+    border-style: hidden;
+    border-radius: 25px;
+    color: black;
+}
+
+.one-content{
+    width:500px;
+    height:auto;
+}
+
+.image{
+    width:500px;
+    height:200px;
+    background-color: rgb(108, 133, 148);
+    flex-shrink: 1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-two{
+    padding: 100px 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-content{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.img-space{
+    width:200px;
+    height:200px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color:aliceblue;
+    border-color: rgb(129, 194, 255);
+}
+
+p{
+    text-align: center;
+}
+
+.object{
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-three{
+    padding: 100px 300px;
+    background-color:lightgray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inspiring-quote{
+    font-size: 40px;
+}
+
+.quote-author{
+    font-size:20px;
+    text-align:right;
+}
+
+.body-four{
+    height:350px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-four{
+    width: 800px;
+    padding: 40px;
+    border-style:hidden;
+    border-radius: 25px;
+    background-color:lightskyblue;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call-to-action{
+    font-weight: bolder;
+}
+
+.signupbutton{
+    background-color: lightskyblue;
+    border-style: solid;
+    border-radius: 25px;
+    width: 100px;
+    height:40px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 30px 300px;
+}
